@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tacademy.mytacademylayouthomework.TableLayoutActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/tableLayoutTopBackgroundColor"
+        android:layout_weight="0.12">
+
+        <ImageView
+            android:src="@drawable/splanner_left_top_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="2015년 10월"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:gravity="center"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:src="@drawable/splanner_right_top_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.04">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_first_row_background"
+                    android:gravity="center"
+                    android:text="일"
+                    android:textColor="@color/tableLayoutDayOffTextFontColor" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_first_row_background"
+                    android:gravity="center"
+                    android:text="월" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_first_row_background"
+                    android:gravity="center"
+                    android:text="화" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_first_row_background"
+                    android:gravity="center"
+                    android:text="수" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_first_row_background"
+                    android:gravity="center"
+                    android:text="목" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_first_row_background"
+                    android:gravity="center"
+                    android:text="금" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_first_row_background"
+                    android:gravity="center"
+                    android:text="토"
+                    android:textColor="@color/tableLayoutDayOffTextFontColor" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.84">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="0.1667">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_invalid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="27"
+                    android:textColor="@color/tableLayoutInvalidDayOffTextFontColor" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_invalid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="28"
+                    android:textColor="@color/tableLayoutInvalidDayOffTextFontColor" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_invalid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="29"
+                    android:textColor="@color/tableLayoutInvalidDayOffTextFontColor" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_invalid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="30"
+                    android:textColor="@color/tableLayoutInvalidDayTextFontColor" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="1" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="2" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="3"
+                    android:textColor="@color/tableLayoutDayOffTextFontColor" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="0.1667">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="4"
+                    android:textColor="@color/tableLayoutDayOffTextFontColor" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="5" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="6" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="7" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="8" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="9"
+                    android:textColor="@color/tableLayoutDayOffTextFontColor" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="10"
+                    android:textColor="@color/tableLayoutSaturdayTextFontColor" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="0.1667">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="11"
+                    android:textColor="@color/tableLayoutDayOffTextFontColor" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="12" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="13" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="14" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="15" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="16" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="17"
+                    android:textColor="@color/tableLayoutSaturdayTextFontColor" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="0.1667">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="18"
+                    android:textColor="@color/tableLayoutDayOffTextFontColor" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="19" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="20" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="21" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="22" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="23" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="24"
+                    android:textColor="@color/tableLayoutSaturdayTextFontColor" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="0.1667">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="25"
+                    android:textColor="@color/tableLayoutDayOffTextFontColor" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="26" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="27" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="28" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="29" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="30" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_valid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="31"
+                    android:textColor="@color/tableLayoutSaturdayTextFontColor" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="0.1667">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_invalid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="1"
+                    android:textColor="@color/tableLayoutInvalidDayOffTextFontColor" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_invalid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="2"
+                    android:textColor="@color/tableLayoutInvalidDayTextFontColor" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_invalid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="3"
+                    android:textColor="@color/tableLayoutInvalidDayTextFontColor" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_invalid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="4"
+                    android:textColor="@color/tableLayoutInvalidDayTextFontColor" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_invalid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="5"
+                    android:textColor="@color/tableLayoutInvalidDayTextFontColor" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_invalid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="6"
+                    android:textColor="@color/tableLayoutInvalidDayTextFontColor" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1425"
+                    android:background="@drawable/splanner_invalid_day_background"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="7"
+                    android:textColor="@color/tableLayoutInvalidSaturdayTextFontColor" />
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

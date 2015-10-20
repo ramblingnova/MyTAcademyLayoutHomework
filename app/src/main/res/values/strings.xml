@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyTAcademyLayoutHomework</string>
+
+    <string name="my_frame">나의 프레임 레이아웃</string>
+    <string name="original_frame">프레임 레이아웃 원본</string>
+    <string name="my_grid">나의 그리드 레이아웃</string>
+    <string name="original_grid">그리드 레이아웃 원본</string>
+    <string name="my_linear">나의 리니어 레이아웃</string>
+    <string name="original_linear">리니어 레이아웃 원본</string>
+    <string name="my_relative">나의 릴레이티브 레이아웃</string>
+    <string name="original_relative">릴레이티브 레이아웃 원본</string>
+    <string name="my_table">나의 테이블 레이아웃</string>
+    <string name="original_table">릴레이티브 테이블 원본</string>
+
+    <string name="linear_layout_text_view1">마을버스 실시간 도착정보 제공 안내</string>
+    <string name="linear_layout_text_view2">노선번호, 정류소명/정류소번호</string>
+
+    <string name="frame_layout_text_view">이번 회차 토익시험일 2015.10.25일</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="frameLayoutTextFontColor">#FFFFFFFF</color>
+
+    <color name="gridLayoutActionBarColor">#FF90431B</color>
+    <color name="gridLayoutFontColor">#FFFFFFFF</color>
+    <color name="gridLayoutButtonColor">#FF959595</color>
+
+    <color name="linearLayoutTextViewBackgroundColor">#FFEEEEEE</color>
+    <color name="linearLayoutSearchIconBackgroundColor">#DD1897CC</color>
+    <color name="linearLayoutTableBackgroundColor1">#DD24B3DC</color>
+    <color name="linearLayoutTableBackgroundColor2">#DD1897CC</color>
+
+    <color name="tableLayoutActionBarColor">#FF4A8000</color>
+    <color name="tableLayoutTopBackgroundColor">#FFEEEEEE</color>
+    <color name="tableLayoutDayOffTextFontColor">#FFC72929</color>
+    <color name="tableLayoutSaturdayTextFontColor">#FF006296</color>
+    <color name="tableLayoutInvalidDayOffTextFontColor">#FFE5B3B1</color>
+    <color name="tableLayoutInvalidSaturdayTextFontColor">#FFA6C4ED</color>
+    <color name="tableLayoutInvalidDayTextFontColor">#FFB3B3B3</color>
+    <color name="tableLayoutSelectedDayTextFontColor">#FFFFFFFF</color>
+    <color name="tableLayoutSelectedDayBackgroundColor">#FF84B7DE</color>
+</resources>

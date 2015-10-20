@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/my_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onFrameLayout"
+        android:text="@string/my_frame" />
+
+    <!--<Button-->
+        <!--android:id="@+id/original_frame"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_toRightOf="@id/my_frame"-->
+        <!--android:onClick="onFrameLayout"-->
+        <!--android:text="@string/original_frame" />-->
+
+    <Button
+        android:id="@+id/my_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_frame"
+        android:onClick="onGridLayout"
+        android:text="@string/my_grid" />
+
+    <!--<Button-->
+        <!--android:id="@+id/original_grid"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/my_frame"-->
+        <!--android:layout_toRightOf="@id/my_grid"-->
+        <!--android:onClick="onGridLayout"-->
+        <!--android:text="@string/original_grid" />-->
+
+    <Button
+        android:id="@+id/my_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_grid"
+        android:onClick="onLinearLayout"
+        android:text="@string/my_linear" />
+
+    <!--<Button-->
+        <!--android:id="@+id/original_linear"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/my_grid"-->
+        <!--android:layout_toRightOf="@id/my_linear"-->
+        <!--android:onClick="onLinearLayout"-->
+        <!--android:text="@string/original_linear" />-->
+
+    <Button
+        android:id="@+id/my_relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_linear"
+        android:onClick="onRelativeLayout"
+        android:text="@string/my_relative" />
+
+    <!--<Button-->
+        <!--android:id="@+id/original_relative"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/my_linear"-->
+        <!--android:layout_toRightOf="@id/my_relative"-->
+        <!--android:onClick="onRelativeLayout"-->
+        <!--android:text="@string/original_relative" />-->
+
+    <Button
+        android:id="@+id/my_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_relative"
+        android:onClick="onTableLayout"
+        android:text="@string/my_table" />
+</RelativeLayout>
